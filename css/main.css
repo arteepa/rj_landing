@@ -84,6 +84,14 @@ body {
   margin-bottom: 30px;
 }
 
+.rj-logo {
+  text-align: center;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 .rj-jumbo-tel {
   font-family: "Montserrat";
   font-weight: 800;
@@ -103,7 +111,7 @@ body {
 }
 
 .rj-jumbo-text {
-  margin: 90px auto 60px;
+  margin: 80px auto 70px;
 }
 
 /* Testimonials */
@@ -203,9 +211,9 @@ body {
 /* Call to Action */
 
 #rj-cta {
-background-image: linear-gradient(-142deg, #FFF300 0%, #FFCC00 100%);
-text-align: center;
-padding:30px;
+  background-image: linear-gradient(-142deg, #FFF300 0%, #FFCC00 100%);
+  text-align: center;
+  padding:30px;
 }
 
 #rj-cta h1 {
@@ -242,7 +250,54 @@ footer li a:hover, footer li a:focus, footer li a:active {
   text-decoration: none;
 }
 
+/* Modal */
 
+.modal-content {
+  background-color: #1a1a1a;
+  color: #eaeaea
+}
+
+.modal-title {
+  font-weight: 800;
+  font-size: 24px;
+  color: #EAEAEA;
+}
+
+.modal-header {
+  background-color: #212121;
+  color: #afafaf;
+  font-size: 16px;
+  padding:20px 16px 20px 36px;
+  border-bottom: 1px solid #323232;
+}
+
+.modal-body {
+  padding:30px 36px;
+}
+
+.modal-footer {
+  text-align: center;
+  border-top: none;
+  margin-bottom: 20px;
+  padding-top: 0px;
+}
+
+.close {
+  color:white;
+  font-size: 32px;
+}
+
+.form-group label {
+  font-weight: normal;
+  font-size: 18px;
+  color: #eaeaea;
+}
+
+.form-group input {
+  background-color: #eaeaea;
+  border-radius: 10px;
+  height: 54px;
+}
 
 @media (min-width:768px) {
 
@@ -254,6 +309,11 @@ footer li a:hover, footer li a:focus, footer li a:active {
 
   .rj-jumbo-main p {
     font-size: 22px;
+  }
+
+  .rj-logo {
+    text-align: left;
+    float:left;
   }
 
   /* Slides */
@@ -282,4 +342,10 @@ footer li a:hover, footer li a:focus, footer li a:active {
     margin: 30px;
   }
   .mixpanel { float:right; }
+
+  /* Modal */
+
+  .modal-dialog {
+    width: 380px;
+  }
 }
