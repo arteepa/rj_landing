@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -21,40 +21,143 @@
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div class="header-container">
-    <header class="wrapper clearfix">
- <div class="jumbotron">
-   <h1>Hello, world!</h1>
-   <p>...</p>
-   <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
- </div>
-
-    </header>
+  <div class="jumbotron rj-jumbo-main">
+    <div class="container">
+      <header class="wrapper clearfix">
+        <div class="navbar-brand" href="#">
+          <img src="img/rj-logo.png" srcset="img/rj-logo.png 1x, img/rj-logo@2x.png 2x" alt="" />
+        </div>
+        <div class="navbar-text navbar-right rj-jumbo-tel hidden-xs">
+          <span class="rj-demph"><span class="rj-jumbo-contact-label">CONTÁCTANOS AL</span> +52 1</span> 045 (644) 173 0535
+        </div>
+      </header>
+      <div class="row">
+        <div class="visible-md-block visible-lg-block col-md-4 rj-jumbo-phone text-right">
+          <img src="img/hero-phone.png" alt="" />
+        </div>
+        <div class="col-md-8">
+          <div class="rj-jumbo-text">
+            <h1>Un juego para tu gimnasio, gratis.</h1>
+            <p>Mejora la experiencia de tus clientes y aumenta tu retención por medio de un adictivo juego de constancia.</p>
+            <p><a class="btn rj-btn-primary" href="#" role="button">Solicitar Información</a></p>
+          </div>
+          <div class="visible-xs-block visible-sm-block  col-md-4 rj-jumbo-phone text-right">
+            <img src="img/hero-phone.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="main-container">
-    <div class="main wrapper clearfix">
+  <section class="rj-testimonials">
+    <div class="container">
+      <div class="rj-testimonials-avatar" style="background-image: url('img/avatar.jpg')"></div>
+      <div class="rj-testimonials-text">
+
+        <div class="rj-testimonials-quote">
+          “Me encanto la app! <span class="rj-demph">[…]</span> me hace querer ir al gimnasio.”
+        </div>
+        <div class="rj-testimonials-author">Andrea C.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="game" class="rj-slide rj-slide-odd">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-md-push-1 hidden-xs">
+          <img class="img-responsive center-block" src="img/phone-game-es.gif" alt="" />
+        </div>
+        <div class="col-md-5 col-md-push-2 rj-slide-block">
+          <div class="rj-slide-text">
+            <h1>El Juego</h1>
+            <p>RocketJourney es una app que convierte el ejercicio en un juego de constancia, donde los usuarios tienen que seguir <b>estas reglas</b> para avanzar.</p>
+            <p class="rj-slide-subtext">Al agregar tu gimnasio a RocketJourney, tus clientes podrán avanzar en el juego al hacer check-in como de costumbre.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="teams" class="rj-slide rj-slide-pair">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-md-push-2 rj-slide-block">
+          <div class="rj-slide-text">
+            <h1>Crea Comunidad</h1>
+            <p>Un equipo provee un sentimiento de rendición de cuentas, si un miembro de un equipo pierde su racha, todo el equipo se da cuenta.</p>
+            <p class="rj-slide-subtext">Usando RocketJourney, los entrenadores pueden tomar el rol de conectores sociales, invitando a dos o más clientes a unirse a un equipo.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-md-push-3">
+          <img class="img-responsive center-block" src="img/phone-game-es.gif" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="brand" class="rj-slide rj-slide-odd">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-md-push-1">
+          <img class="img-responsive center-block" src="img/phone-game-es.gif" alt="" />
+        </div>
+        <div class="col-md-5 col-md-push-2 rj-slide-block">
+          <div class="rj-slide-text">
+            <h1>Presume tu Marca</h1>
+            <p>
+              RocketJourney es una app abierta al público que permite que amigos y familiares formen equipos, sin importar que tipo de actividad hagan.
+            </p>
+
+            <p>
+              Cada vez que tus clientes asistan al gimnasio, se genera una historia con tu marca, visible para los integrantes de sus equipos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-md-push-1">
+          <h1>Privacidad de Datos</h1>
+          <p>No requerimos datos personales de tus clientes. Checa nuestros Términos y Condiciones.</p>
+        </div>
+        <div class="col-md-5 col-md-push-1">
+          <h1>¿Otra cosa?</h1>
+          <p>Tambien hacemos eso muy bien, en este texto quedará contestada tu pregunta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rj-cta">
+    <div class="container">
+      <div class="row">
+        <h1>Agrega tu Gimnasio, ¡es gratis!</h1>
+        <a class="btn rj-btn-primary" role="button">Solicitar Información</a>
+      </div>
+    </div>
+  </section>
 
 
-
-    </div> <!-- #main -->
-  </div> <!-- #main-container -->
-
-  <div class="footer-container">
-    <footer class="wrapper">
-      <h3>footer</h3>
-    </footer>
-  </div>
+  <footer class="container">
+    <div class="row">
+      <ul>
+        <li><span class="rj-copyright">© 2016 RocketJourney, Inc.</span></li>
+        <li><a href="#">Política de Privacidad</a></li>
+        <li><a href="#">Terminos y Condiciones</a></li>
+        <li class="mixpanel"><a href="http://www.mixpanel.com" target="_blank"><img src="img/mixpanel.png" alt="" /></a></li>
+      </ul>
+    </div>
+  </footer>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
   <script src="js/main.js"></script>
-
-
-
-
-  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 </body>
 </html>
